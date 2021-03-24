@@ -1,10 +1,14 @@
 body {
   background-color: darkcyan;
+  display: flex;
+  justify-content: center;
 }
 
 #central {
+  width: 50%;
   margin: 30px;
   padding: 10px;
+  border-radius: 10px;
   background-color: white;
 }
 
@@ -14,6 +18,7 @@ body {
   padding: 9px;
   border: none;
   color: white;
+  border-radius: 10px;
 }
 
 #criar-tarefa {
@@ -23,6 +28,7 @@ body {
   padding: 9px;
   border: none;
   color: white;
+  border-radius: 10px;
 }
 
 #remover-finalizados {
@@ -39,6 +45,7 @@ body {
 
 #texto-tarefa {
   height: 25px;
+  border-radius: 10px;
 }
 
 .cinza {
